@@ -75,7 +75,14 @@ button:hover{
     background-color: #532CD6;
 }
 .img-cam{
+    transition: .5s;
     margin-right: 150px;
+}
+
+.img-cam:hover{
+    cursor: pointer;
+    transition: .5s;
+    transform: translateY(-20px);
 }
 .container .texts h1{
       font-size: 45px;
@@ -360,7 +367,7 @@ footer p{
     }
     .contact
     {
-         margin-left: 20px;
+        margin-left: 20px;
         margin-bottom: 30px;
     }
     .contact-sec 
